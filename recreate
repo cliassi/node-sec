@@ -1,0 +1,47 @@
+cd . > .env & cd . > .gitignore & cd . > app.js & cd . > package.json & cd . > README.md & cd . > LICENSE
+
+mkdir config
+cd config & cd . > database.js
+cd ..
+mkdir controllers
+cd controllers
+cd . > authController.js
+cd . > orderController.js
+cd . > productController.js
+cd . > userController.js
+cd . > inventoryController.js
+cd ..
+mkdir models
+cd models
+cd . > User.js
+cd . > Order.js
+cd . > Product.js
+cd . > Inventory.js
+cd . > Payment.js
+cd ..
+mkdir routes
+cd routes
+cd . > authRoutes.js
+cd . > orderRoutes.js
+cd . > productRoutes.js
+cd . > userRoutes.js
+cd . > inventoryRoutes.js
+cd ..
+mkdir middlewares
+cd middlewares
+cd . > auth.js
+cd . > errorHandler.js
+cd . > validateInput.js
+cd . > rateLimiter.js
+cd . > csrfProtection.js
+cd . > sanitize.js
+cd ..
+mkdir utils
+cd utils
+cd . > securityHeaders.js
+cd . > logger.js
+cd . > passwordUtils.js
+cd ..
+mkdir public
+cd public
+cd . > index.html
